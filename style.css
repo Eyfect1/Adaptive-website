@@ -239,7 +239,7 @@ main {
 .place-1 { background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); }
 .place-2 { background-image: url('https://images.unsplash.com/photo-1513326738677-b964603b136d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); }
 .place-3 { background-image: url('https://images.unsplash.com/photo-1555881400-74d7acaacd8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); }
-.place-4 { background-image: url('https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); }
+.place-4 { background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); }
 
 .place-content {
     padding: 1.5rem;
@@ -473,4 +473,20 @@ footer p {
     .video-placeholder {
         height: 250px;
     }
+}
+
+.video-button {
+    display: inline-block;
+    background-color: #00b894;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,184,148,0.4);
 }
